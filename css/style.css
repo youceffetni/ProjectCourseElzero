@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#eee;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* START HEADER */
+.main-header h1{
+    text-align:center;
+    background:blueviolet;
+    color:#fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* END HEADER */
+
+/* START NAV-MENU */
+.nav-menu{
+    color:#fff;
+    background:palevioletred;
+    display:flex;
+    padding:8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu .menu-item{
+font-size:20px;
+margin-right:5px;
+}
+
+/* END NAV-MENU */
